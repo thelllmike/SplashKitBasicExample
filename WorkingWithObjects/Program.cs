@@ -1,29 +1,54 @@
 using System;
 using SplashKitSDK;
 
-public static class Program
+public class PCAndMonitor
 {
-    public static void Main(string[] args)
+    public static void Main()
     {
-        // Create the window and assign it to the shapesWindow variable
-        Window shapesWindow = new Window("Shapes by ...", 800, 600);
+        // Create a window to draw in
+        Window window = new Window("PC and Monitor", 800, 600);
 
-        // Clear the window background with white
-        shapesWindow.Clear(Color.White);
+        // Main loop: run until the user closes the window
+        while (!SplashKit.WindowCloseRequested(window))
+        {
+            // Process events (e.g., closing the window)
+            SplashKit.ProcessEvents();
 
-        // Draw a green ellipse at the bottom (like a hill or ground)
-        shapesWindow.FillEllipse(Color.BrightGreen, 0, 400, 800, 400);
+            // Clear the screen to white
+            SplashKit.ClearScreen(Color.White);
 
-        // Draw the house's gray base
-        shapesWindow.FillRectangle(Color.Gray, 300, 300, 200, 200);
+            //------------------------------------------------
+            // Draw the monitor
+            //------------------------------------------------
+            // 1) Outer monitor frame (black border)
+            window.FillRectangle(Color.Black, 100, 100, 300, 200);
 
-        // Draw the red triangular roof
-        shapesWindow.FillTriangle(Color.Red, 250, 300, 400, 150, 550, 300);
+            // 2) Screen area (dark gray)
+            window.FillRectangle(Color.DarkGray, 110, 110, 280, 180);
 
-        // Refresh the window to show all drawings
-        shapesWindow.Refresh();
+            // 3) Monitor stand (black rectangle under screen)
+            window.FillRectangle(Color.Black, 220, 300, 60, 50);
 
-        // Keep the window open for 5 seconds
-        SplashKit.Delay(5000);
+            // 4) Base for the stand (thin rectangle)
+            window.FillRectangle(Color.Black, 200, 350, 100, 10);
+
+            //------------------------------------------------
+            // Draw the PC tower
+            //------------------------------------------------
+            // 1) Tower body (gray)
+            window.FillRectangle(Color.Gray, 450, 150, 80, 150);
+
+            // 2) A DVD drive slot (black rectangle)
+            window.FillRectangle(Color.Black, 455, 160, 70, 20);
+
+            // 3) Another front panel (black rectangle)
+            window.FillRectangle(Color.Black, 455, 190, 70, 30);
+
+            // Update (refresh) the screen to show everything
+            SplashKit.RefreshScreen();
+        }
+
+        // Close the window when done
+        window.Close();
     }
 }

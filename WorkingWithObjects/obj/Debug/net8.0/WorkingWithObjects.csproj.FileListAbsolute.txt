@@ -12,3 +12,4 @@ C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\refin
 C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\WorkingWithObjects.pdb
 C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\WorkingWithObjects.genruntimeconfig.cache
 C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\ref\WorkingWithObjects.dll
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\WorkingWithObjects.sourcelink.json
