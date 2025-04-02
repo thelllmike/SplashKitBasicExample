@@ -1,0 +1,14 @@
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\bin\Debug\net8.0\WorkingWithObjects.exe
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\bin\Debug\net8.0\WorkingWithObjects.deps.json
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\bin\Debug\net8.0\WorkingWithObjects.runtimeconfig.json
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\bin\Debug\net8.0\WorkingWithObjects.dll
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\bin\Debug\net8.0\WorkingWithObjects.pdb
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\WorkingWithObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\WorkingWithObjects.AssemblyInfoInputs.cache
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\WorkingWithObjects.AssemblyInfo.cs
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\WorkingWithObjects.csproj.CoreCompileInputs.cache
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\WorkingWithObjects.dll
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\refint\WorkingWithObjects.dll
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\WorkingWithObjects.pdb
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\WorkingWithObjects.genruntimeconfig.cache
+C:\Users\sachi\OneDrive\Documents\Code\WorkingWithObjects\obj\Debug\net8.0\ref\WorkingWithObjects.dll
